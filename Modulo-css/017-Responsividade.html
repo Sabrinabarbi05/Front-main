@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body 
+    {
+        background: brown;
+        color:  rgb(210, 174, 255);
+        font-size: 90px;
+    }
+    p
+    {
+        display: none;
+    }
+    @media (max-width:500px) 
+    {
+            body
+            {               
+                background: royalblue
+            }
+           
+    }
+    @media (min-width:320px) 
+    {
+            body
+            {
+                font-size: 50px;
+                background: rgb(236,236,252)
+            }
+            p
+            {
+                display: block;
+            }
+    }
+
+    </style>
+</head>
+<body>
+  texto 1
+</body>
+<p>
+    texto 2
+</p>
+</html>
